@@ -12,42 +12,42 @@
 
 @font-face {
   font-family: 'Gotham-Bold';
-  src: url(/Fonts/Gotham-Bold.woff) format("woff");
+  src: url(../Fonts/Gotham-Bold.woff) format("woff");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GothamBold';
-  src: url(/Fonts/GothamBold.woff2) format("woff2");
+  src: url(../Fonts/GothamBold.woff2) format("woff2");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Gotham-Book';
-  src: url(/Fonts/Gotham-Book.woff) format("woff");
+  src: url(../Fonts/Gotham-Book.woff) format("woff");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GothamBook';
-  src: url(/Fonts/GothamBook.woff2) format("woff2");
+  src: url(../Fonts/GothamBook.woff2) format("woff2");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'GothamMedium';
-  src: url(/Fonts/GothamMedium.woff2) format("woff2");
+  src: url(../Fonts/GothamMedium.woff2) format("woff2");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Gotham-Medium';
-  src: url(/Fonts/Gotham-Medium.woff) format("woff");
+  src: url(../Fonts/Gotham-Medium.woff) format("woff");
   font-style: normal;
   font-display: swap;
 }
@@ -117,7 +117,7 @@
 }
 
 .header {
-  background: url(/Images/Header/Bg2.png);
+  background: url(../Images/Header/Bg2.png);
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -415,7 +415,7 @@
 }
 
 .news {
-  background: url(/Images/News/Bg.png);
+  background: url(../Images/News/Bg.png);
   background-size: cover;
   background-position: bottom;
   height: 150vh;
@@ -597,14 +597,14 @@
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: gallery1;
-  background-image: url(/Images/Gallery/img1.png);
+  background-image: url(../Images/Gallery/img1.png);
 }
 
 .gallery__grid-container .box-second {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: gallery2;
-  background-image: url(/Images/Gallery/img2.png);
+  background-image: url(../Images/Gallery/img2.png);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -614,21 +614,21 @@
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: gallery3;
-  background-image: url(/Images/Gallery/img3.png);
+  background-image: url(../Images/Gallery/img3.png);
 }
 
 .gallery__grid-container .box-fourth {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: gallery4;
-  background-image: url(/Images/Gallery/img4.png);
+  background-image: url(../Images/Gallery/img4.png);
 }
 
 .gallery__grid-container .box-fifth {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: gallery5;
-  background-image: url(/Images/Gallery/img5.png);
+  background-image: url(../Images/Gallery/img5.png);
 }
 
 .gallery__button .btn {
@@ -648,7 +648,7 @@
 
 .footer {
   height: 65vh;
-  background: url(/Images/Footer/Bg.png);
+  background: url(../Images/Footer/Bg.png);
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
