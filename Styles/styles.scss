@@ -26,7 +26,7 @@
 }
 
 .header {
-    background: url(/Images/Header/Bg2.png);
+    background: url(../Images/Header/Bg2.png);
     background-size: cover;
     background-position: top;
     display: flex;
@@ -269,7 +269,7 @@
 }
 
 .news {
-    background: url(/Images/News/Bg.png);
+    background: url(../Images/News/Bg.png);
     background-size: cover;
     background-position: bottom;
     height: 150vh;
@@ -429,13 +429,13 @@
 
         .box-first {
             grid-area: gallery1;
-            background-image: url(/Images/Gallery/img1.png);
+            background-image: url(../Images/Gallery/img1.png);
             @extend %bg-grid;
         }
 
         .box-second {
             grid-area: gallery2;
-            background-image: url(/Images/Gallery/img2.png);
+            background-image: url(../Images/Gallery/img2.png);
             background-position: bottom;
             background-size: cover;
             background-repeat: no-repeat;
@@ -443,19 +443,19 @@
 
         .box-third {
             grid-area: gallery3;
-            background-image: url(/Images/Gallery/img3.png);
+            background-image: url(../Images/Gallery/img3.png);
             @extend %bg-grid;
         }
 
         .box-fourth {
             grid-area: gallery4;
-            background-image: url(/Images/Gallery/img4.png);
+            background-image: url(../Images/Gallery/img4.png);
             @extend %bg-grid;
         }
 
         .box-fifth {
             grid-area: gallery5;
-            background-image: url(/Images/Gallery/img5.png);
+            background-image: url(../Images/Gallery/img5.png);
             @extend %bg-grid;
         }
     }
@@ -476,7 +476,7 @@
 
 .footer {
     height: 65vh;
-    background: url(/Images/Footer/Bg.png);
+    background: url(../Images/Footer/Bg.png);
     background-position: top right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -516,7 +516,7 @@
             justify-content: space-between;
             flex-wrap: nowrap;
             padding-top: 5%;
-            margin-left: -30%; //погана ідея, знайти інший спосіб 
+            margin-left: -30%;
             @include font(Gotham-Book, 14px, #ffffff);
             line-height: 1.57;
 
